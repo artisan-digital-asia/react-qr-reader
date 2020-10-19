@@ -344,7 +344,6 @@ module.exports = class Reader extends Component {
       display: "block",
       position: "absolute",
       overflow: "hidden",
-      width: "100%",
       height: window.screen.height,
     };
     const videoPreviewStyle = {
