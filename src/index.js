@@ -352,7 +352,7 @@ module.exports = class Reader extends Component {
     };
     const videoPreviewStyle = {
       ...previewStyle,
-      objectFit: "fill",
+
       transform: this.state.mirrorVideo ? "scaleX(-1)" : undefined,
     };
     const imgPreviewStyle = {
