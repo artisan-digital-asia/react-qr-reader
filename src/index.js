@@ -29,6 +29,7 @@ module.exports = class Reader extends Component {
     resolution: PropTypes.number,
     showViewFinder: PropTypes.bool,
     style: PropTypes.any,
+    moreStyle: PropTypes.any,
     className: PropTypes.string,
     constraints: PropTypes.object,
   };
@@ -329,6 +330,7 @@ module.exports = class Reader extends Component {
       legacyMode,
       showViewFinder,
       facingMode,
+      moreStyle,
     } = this.props;
 
     const containerStyle = {
@@ -340,6 +342,7 @@ module.exports = class Reader extends Component {
     };
     const hiddenStyle = { display: "none" };
     const previewStyle = {
+      ...moreStyle,
       top: 0,
       left: 0,
       display: "block",
