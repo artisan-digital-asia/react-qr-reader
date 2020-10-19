@@ -335,6 +335,7 @@ module.exports = class Reader extends Component {
       overflow: "hidden",
       position: "relative",
       width: "100%",
+      height: window.screen.height,
       paddingTop: "100%",
     };
     const hiddenStyle = { display: "none" };
