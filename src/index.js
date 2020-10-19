@@ -401,6 +401,7 @@ module.exports = class Reader extends Component {
           )}
 
           <canvas style={hiddenStyle} ref={this.setRefFactory("canvas")} />
+          <p>THIS IS QR SCANER</p>
         </section>
       </section>
     );
